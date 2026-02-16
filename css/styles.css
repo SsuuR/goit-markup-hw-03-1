@@ -40,14 +40,15 @@ img{
 
 /* #region header */
 .page-header{
-background-color:#fff;
+    background-color:#fff;
+    border-bottom: 1px solid #e7e9fc;
 }
 .container-heder{
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 72px;
-    border-bottom: 1px solid #e7e9fc;
+    /* border-bottom: 1px solid #e7e9fc; */
 }
 .header-left{
     display: flex;
@@ -82,7 +83,7 @@ font-weight: 500;
 .nav-link{
     display: block;
     padding: 24px 0;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -179,9 +180,12 @@ h2{
     line-height: 1.11;
     margin: 0;
 }
+.features-section{
+    padding: 120px 0;
+}
 .features-list{
     display: flex;
-    padding: 120px 0;
+    /* padding: 120px 0; */
     gap: 24px;
 }
 .features-item {
@@ -242,7 +246,7 @@ p{
     padding: 0 24px;
 }
 .team-content{
-    padding: 32px 0;
+    padding: 32px 16px;
 }
 
 .team-title{
